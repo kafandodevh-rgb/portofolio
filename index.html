@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>KAFANDO Hamidou — Ingénieur Logiciel</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700;800&family=Syne:wght@400;600;800&family=Inter:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- CURSEUR -->
+  <div id="cursor"></div>
+  <div id="cursor-ring"></div>
+
+  <!-- CANVAS FOND INTERACTIF -->
+  <canvas id="bg-canvas"></canvas>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-left">
+      <span class="nav-dot"></span>
+      Ouagadougou, Burkina Faso
+    </div>
+    <div class="nav-right">
+      <a href="#projets" class="nav-btn nav-btn-outline">Mes projets</a>
+      <a href="#contact" class="nav-btn nav-btn-outline">Me contacter</a>
+      <a href="#" class="nav-btn nav-btn-fill">↓ CV</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="accueil">
+    <div class="hero-left fade-in">
+      <div class="hero-badge">
+        <span class="hero-badge-dot"></span>
+        Full-Stack &amp; Disponible
+      </div>
+      <h1 class="hero-name">
+        <span class="first">KAFANDO</span><br/>
+        <span class="last">Hamidou</span>
+      </h1>
+      <p class="hero-tagline">Étudiant en Génie Logiciel · 2ème année</p>
+      <p class="hero-desc">
+        Passionné d'informatique, je conçois des solutions numériques efficaces et robustes. Toujours en quête de nouvelles technologies.
+      </p>
+      <div class="hero-actions">
+        <a href="#projets" class="nav-btn nav-btn-outline" style="font-size:0.9rem;padding:0.6rem 1.4rem;">Voir mes projets</a>
+        <a href="#contact" class="nav-btn nav-btn-outline" style="font-size:0.9rem;padding:0.6rem 1.4rem;">Me contacter</a>
+        <a href="#" class="nav-btn nav-btn-fill" style="font-size:0.9rem;padding:0.6rem 1.4rem;">↓ CV</a>
+      </div>
+      <div class="hero-stats">
+        <div><div class="stat-num cyan">6+</div><div class="stat-label">Projets réalisés</div></div>
+        <div><div class="stat-num orange">2</div><div class="stat-label">Années d'études</div></div>
+        <div><div class="stat-num yellow">10+</div><div class="stat-label">Technologies</div></div>
+      </div>
+    </div>
+
+    <div class="hero-right fade-in">
+      <div class="hero-photo-wrap">
+        <div class="hero-photo-bg"></div>
+        <div class="hero-photo">
+          <img src="image/kaf7.jpeg" alt="KAFANDO Hamidou"/>
+        </div>
+        <div class="hero-tag top-left">Ouagadou, BF</div>
+        <div class="hero-tag top-right">Full-Stack Dev</div>
+        <div class="hero-tag bottom-right">✅ Disponible</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EN CE MOMENT -->
+  <div id="moment">
+    <div class="moment-inner">
+      <p class="section-eyebrow">STATUT ACTUEL</p>
+      <h2 class="moment-title">En ce moment</h2>
+      <div class="moment-grid fade-in">
+        <div class="moment-card">
+          <div class="moment-card-top"><span class="moment-card-label">EN FORMATION</span><span class="moment-dot dot-cyan"></span></div>
+          <h3>2ème année GL</h3><p>Génie Logiciel · AUBE Nouvelle</p>
+        </div>
+        <div class="moment-card">
+          <div class="moment-card-top"><span class="moment-card-label">LOCALISATION</span><span class="moment-dot dot-green"></span></div>
+          <h3>Ouagadougou</h3><p>Burkina Faso</p>
+        </div>
+        <div class="moment-card">
+          <div class="moment-card-top"><span class="moment-card-label">EN CONSTRUCTION</span><span class="moment-dot dot-orange"></span></div>
+          <h3>Mon Portfolio</h3><p>Site personnel</p>
+        </div>
+        <div class="moment-card">
+          <div class="moment-card-top"><span class="moment-card-label">J'APPRENDS</span><span class="moment-dot dot-yellow"></span></div>
+          <h3>React &amp; DevOps</h3><p>Auto-formation · Git</p>
+        </div>
+        <div class="moment-card">
+          <div class="moment-card-top"><span class="moment-card-label">OUVERT À</span><span class="moment-dot dot-pink"></span></div>
+          <h3>Freelance · Stage</h3><p>Collaboration · CDI</p>
+        </div>
+        <div class="moment-card">
+          <div class="moment-card-top"><span class="moment-card-label">DISPONIBILITÉ</span><span class="moment-dot dot-green"></span></div>
+          <h3>Immédiate</h3><p>Réponse · 24h</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- À PROPOS -->
+  <section id="apropos" class="section">
+    <p class="section-eyebrow">QUI SUIS-JE</p>
+    <h2 class="section-title">À propos</h2>
+    <div class="apropos-grid fade-in">
+      <div class="apropos-photo">
+        <img src="image/photo-hero.jpeg" alt="KAFANDO Hamidou"/>
+      </div>
+      <div class="apropos-content">
+        <p>Je suis <strong>KAFANDO Hamidou</strong>, étudiant en <strong>2ème année de Génie Logiciel</strong>, passionné par la création de solutions numériques robustes et efficaces.</p>
+        <p>Mon parcours m'a permis d'acquérir des bases solides en <strong>programmation orientée objet</strong>, algorithmique, bases de données et développement web.</p>
+        <p>J'aime résoudre des problèmes concrets à travers le code et je suis toujours en quête d'apprentissage de nouvelles technologies.</p>
+        <div class="apropos-meta">
+          <div class="meta-card"><div class="meta-card-label">Nom complet</div><div class="meta-card-value">KAFANDO Hamidou</div></div>
+          <div class="meta-card"><div class="meta-card-label">Formation</div><div class="meta-card-value">Génie Logiciel · 2ème année</div></div>
+          <div class="meta-card"><div class="meta-card-label">Téléphone 1</div><div class="meta-card-value">+226 07 01 90 95</div></div>
+          <div class="meta-card"><div class="meta-card-label">Téléphone 2</div><div class="meta-card-value">+226 76 81 00 12</div></div>
+          <div class="meta-card"><div class="meta-card-label">Localisation</div><div class="meta-card-value">Ouagadougou, BF</div></div>
+          <div class="meta-card"><div class="meta-card-label">Disponibilité</div><div class="meta-card-value">Stage / Freelance</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPÉTENCES -->
+  <section id="competences" class="section">
+    <p class="section-eyebrow">CE QUE JE MAÎTRISE</p>
+    <h2 class="section-title">Compétences</h2>
+    <div class="competences-grid fade-in">
+      <div class="competence-card cyan"><div class="competence-icon">💻</div><h3>Langages</h3><div class="tags"><span class="tag">Java</span><span class="tag">Python</span><span class="tag">C</span><span class="tag">JavaScript</span></div></div>
+      <div class="competence-card orange"><div class="competence-icon">🌐</div><h3>Web</h3><div class="tags"><span class="tag">HTML/CSS</span><span class="tag">React</span><span class="tag">Node.js</span><span class="tag">PHP</span></div></div>
+      <div class="competence-card yellow"><div class="competence-icon">🗄️</div><h3>Bases de données</h3><div class="tags"><span class="tag">MySQL</span><span class="tag">PostgreSQL</span><span class="tag">MongoDB</span></div></div>
+      <div class="competence-card green"><div class="competence-icon">🔧</div><h3>Outils</h3><div class="tags"><span class="tag">Git</span><span class="tag">GitHub</span><span class="tag">Linux</span><span class="tag">VS Code</span></div></div>
+      <div class="competence-card pink"><div class="competence-icon">🧠</div><h3>Concepts</h3><div class="tags"><span class="tag">POO</span><span class="tag">Algorithmique</span><span class="tag">UML</span><span class="tag">MVC</span></div></div>
+      <div class="competence-card cyan"><div class="competence-icon">🤝</div><h3>Soft Skills</h3><div class="tags"><span class="tag">Leadership</span><span class="tag">Travail d'équipe</span><span class="tag">Adaptabilité</span></div></div>
+    </div>
+  </section>
+
+  <!-- PROJETS -->
+  <section id="projets" class="section">
+    <p class="section-eyebrow">CE QUE J'AI CRÉÉ</p>
+    <h2 class="section-title">Projets</h2>
+    <div class="projets-grid fade-in">
+      <div class="projet-card">
+        <p class="projet-num">Projet 01</p>
+        <h3>Gestion de bibliothèque</h3>
+        <p>Application Java de gestion d'emprunts de livres avec interface graphique et base de données MySQL.</p>
+        <div class="tags" style="margin-bottom:1rem;"><span class="tag">Java</span><span class="tag">MySQL</span><span class="tag">MVC</span></div>
+        <div class="projet-links"><a href="#">GitHub →</a><a href="#">Demo →</a></div>
+      </div>
+      <div class="projet-card">
+        <p class="projet-num">Projet 02</p>
+        <h3>Site e-commerce</h3>
+        <p>Boutique en ligne avec panier, gestion des commandes et interface d'administration.</p>
+        <div class="tags" style="margin-bottom:1rem;"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">PHP</span></div>
+        <div class="projet-links"><a href="#">GitHub →</a><a href="#">Demo →</a></div>
+      </div>
+      <div class="projet-card">
+        <p class="projet-num">Projet 03</p>
+        <h3>Visualisateur de tri</h3>
+        <p>Visualisateur interactif comparant Quick Sort, Merge Sort et Bubble Sort en temps réel.</p>
+        <div class="tags" style="margin-bottom:1rem;"><span class="tag">JavaScript</span><span class="tag">Canvas</span></div>
+        <div class="projet-links"><a href="#">GitHub →</a><a href="#">Demo →</a></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <p class="section-eyebrow">TRAVAILLONS ENSEMBLE</p>
+    <div class="contact-grid fade-in">
+      <div class="contact-left">
+        <h2>Contactez-moi</h2>
+        <p>Disponible pour des stages, freelance ou collaborations. Réponse garantie sous 24h !</p>
+        <div class="contact-links">
+          <a href="tel:+22607019095" class="contact-link"><span class="contact-link-icon">📱</span>+226 07 01 90 95</a>
+          <a href="tel:+22676810012" class="contact-link"><span class="contact-link-icon">📱</span>+226 76 81 00 12</a>
+          <a href="mailto:kafandohamidou601@email.com" class="contact-link"><span class="contact-link-icon">✉️</span>kafandohamidou601@email.com</a>
+          <a href="https://github.com/" class="contact-link"><span class="contact-link-icon">🐙</span>github.com/kafando-hamidou</a>
+          <a href="https://linkedin.com/" class="contact-link"><span class="contact-link-icon">💼</span>linkedin.com/in/kafando-hamidou</a>
+          <a href="https://facebook.com/" class="contact-link"><span class="contact-link-icon">💼</span>https://www.facebook.com/FasoWifi⁠�</a>
+        </div>
+      </div>
+      <div class="contact-form">
+        <div class="form-group"><label>Nom complet</label><input type="text" placeholder="Votre nom"/></div>
+        <div class="form-group"><label>Email</label><input type="email" placeholder="votre@email.com"/></div>
+        <div class="form-group"><label>Message</label><textarea placeholder="Décrivez votre projet ou besoin..."></textarea></div>
+        <button class="btn-send">Envoyer le message →</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 · Conçu avec ❤️ par <strong>KAFANDO Hamidou</strong> · Étudiant en Génie Logiciel</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
